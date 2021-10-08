@@ -74,7 +74,7 @@
 }
 
 .nav-menu{
-    justify-content: start;
+    justify-content: flex-start;
     display:flex;
     flex-direction: column;
     width: 100%;

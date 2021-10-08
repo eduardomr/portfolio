@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {MenuItems} from './MenuItems';
 import { Button } from '../Button';
 import './Navbar.css'
@@ -14,7 +14,7 @@ handleClick = ()=>{
 render() {
 return ( <nav className="NavbarItems">
 
-    <img className="navbar-logo"src={Logo}></img>
+    <img className="navbar-logo"src={Logo} alt="logo"></img>
     <div className="menu-icon" onClick={this.handleClick}>
         <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars' }></i>
     </div>
