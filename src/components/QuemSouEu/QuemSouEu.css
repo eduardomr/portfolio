@@ -1,0 +1,91 @@
+.box {
+    background: #17161d;
+    height: 650px;
+    padding-top: 150px;
+
+}
+
+.title {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 38px;
+
+}
+
+.foto {
+    margin-left: 200px;
+    float: left;
+    height: 300px;
+
+}
+
+.texto {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    margin-top: 5rem;
+    width: 33%;
+    float: right;
+    margin-right: 200px;
+    padding-bottom: 20px;
+}
+
+.botao-qm-sou-eu {
+
+
+    margin-top: 20px;
+}
+.botao-qm-sou-eu2 {
+
+
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+    .box {
+        height: 900px;
+    }
+
+    .foto {
+        display: flex;
+        height: 30%;
+        margin: 0 auto;
+        float: unset;
+        padding-right: 0em;
+    }
+
+    .texto {
+
+        display: flex;
+        width: 90%;
+        height: auto;
+        float: unset;
+        margin: 0 auto;
+        padding-top: 60px;
+        padding-left: 2em;
+        padding-right: 2em;
+
+    }
+
+    .botao-qm-sou-eu {
+        display: none;
+    }
+    .botao-qm-sou-eu2 {
+    display: block;
+    text-align: center;
+    margin:0 auto;
+    border-radius: 4px;
+    width: 80%;
+    background-color: #6435C1;
+    color:#fff;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    }
+
+    .botao-qm-sou-eu2:hover{
+    background:#fff;
+    color:#000;
+    transition: 250ms;
+    }
+}

@@ -30,7 +30,7 @@ return ( <nav className="NavbarItems">
         })}
 
     </ul>
-    <Button>Fale Comigo</Button>
+   <div className="btn-bar"> <Button>Fale Comigo</Button></div>
 </nav>)
 }
 }

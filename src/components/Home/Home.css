@@ -22,6 +22,7 @@
 .content{ 
     position:absolute;
     z-index: 20;
+    padding-bottom: 20px;
 }
 
 .body-home p {
@@ -39,11 +40,20 @@
     padding-top: 15px;
 }
 
+.botao{
+    position:absolute;
+    z-index: 20;
+    top: 320px;
+
+}
   
   
 
 
 @media screen and (max-width: 960px) {
+    .botao{
+        padding-left: 20px;
+    }
     .p1{
         width: 100%;
     }

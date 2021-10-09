@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import ParticleBackground from '../Particles/bgParticles';
-
+import { Button }from '../Button'
 class Home extends React.Component {
 render() {
 
@@ -20,6 +20,8 @@ return <section><div className="p1"><ParticleBackground /></div>
     </div>
     
     </div>
+    <div className="botao"><Button>Vamos trabalhar juntos?!</Button></div>
+    
     
     
 </div>

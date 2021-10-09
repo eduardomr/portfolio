@@ -1,4 +1,5 @@
 .NavbarItems{
+    
     background: #17161D ;
     height:80px;
     display:flex;
@@ -149,7 +150,7 @@
     transition: 250ms;
 }
 
-Button {
+.btn-bar {
     display: none;
 }
 }
