@@ -1,0 +1,23 @@
+:root{
+    --main_color: #222222;
+    --font_color: #ffffff;
+}
+
+nav{
+background-color: var(--main_color);
+display: flex;
+justify-content: flex-end;
+align-items: center;
+padding: 0 2rem;
+height: 4rem;
+
+
+} 
+
+nav a{
+    text-decoration: none;
+    color: var(--font_color);
+    opacity: 0.5;
+    padding: 0 2rem;
+}
+    
