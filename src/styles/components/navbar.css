@@ -1,8 +1,22 @@
 :root{
     --main_color: #222222;
     --font_color: #ffffff;
+    --orange: #E05330;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.logo{
+    position: absolute;
+    left: 2rem;
+    top: 1rem;
+}
+.logo img{
+    padding: 0 2rem;
+    height: 2rem;
+    
+}
 nav{
 background-color: var(--main_color);
 display: flex;
@@ -11,7 +25,6 @@ align-items: center;
 padding: 0 2rem;
 height: 4rem;
 
-
 } 
 
 nav a{
@@ -19,5 +32,12 @@ nav a{
     color: var(--font_color);
     opacity: 0.5;
     padding: 0 2rem;
+    font-family: 'poppins', sans-serif;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: var(--orange);
+    opacity: 1;
 }
     
