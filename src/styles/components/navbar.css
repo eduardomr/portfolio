@@ -4,8 +4,6 @@
     --orange: #E05330;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 
 .logo{
     position: absolute;
@@ -40,4 +38,48 @@ nav a:hover{
     color: var(--orange);
     opacity: 1;
 }
-    
+.menu-toggle {
+    display: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+  }
+  
+  .menu {
+    z-index: 1;
+    border-radius: 0 25;
+    font-family: 'poppins', sans-serif;
+    position: absolute;
+    top: 4rem;
+    background-color: #1a1a1ab6;
+    width: 100%;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: var(--font_color);
+    opacity: 0.5;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transition: 0.3s;
+  }
+
+  .menu a:hover {
+    color: var(--orange);
+    opacity: 1;
+  }
+  
+@media (max-width: 935px) {
+    nav {
+      display: none;
+    }
+    .menu-toggle {
+      display: block;
+    }
+    .menu {
+      display: none;
+    }
+  }
+  
