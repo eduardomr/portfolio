@@ -13,6 +13,7 @@
     z-index: 1;
 }
 .logo img{
+  position: fixed;
     padding: 0 2rem;
     height: 2rem;
   
@@ -82,9 +83,23 @@ nav a:hover{
     }
     .menu-toggle {
       display: block;
+      position: fixed;
+      background-color: transparent;
+      border:none;
+      padding-top: 1rem;
+      
+    }
+    .menu-toggle img {
+      height: 2rem;
     }
     .menu {
       display: none;
+    }
+
+    .logo img{
+      padding-top: 1rem;
+      padding-left: 0;
+      padding-right: 0;
     }
   }
   

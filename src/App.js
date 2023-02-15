@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from './components/NavBar.jsx';
 import Home from './components/Home.jsx';
+import FrontSkills from './components/FrontSkills.jsx';
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <NavBar/>
       <Home/>
+      <FrontSkills/>
     </div>
   );
 }

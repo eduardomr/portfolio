@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.png";
+import menu from "../assets/menu.png";
 
 
 
@@ -28,7 +29,7 @@ class NavBar extends React.Component {
           <a href="#">Contato</a>
         </nav>
         <button className="menu-toggle" onClick={this.toggleMenu}>
-          Menu
+          <img src={menu} alt="menu" />
         </button>
         <div
           className="menu"
