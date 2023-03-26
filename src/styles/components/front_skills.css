@@ -1,7 +1,8 @@
 .front_skills {
-
+    display: inline-block;
     height: 100vh;
     background-color: #222222;
+    flex: 0 1 100%;
 
 }
 .content{
@@ -14,8 +15,6 @@
 
 .front_skills_title {
     height: 12rem;
-    display: inline;
-    background-color: #33333333;
     color: #ffffff;
     font-size: 2rem;
     font-weight: 700;
@@ -24,7 +23,9 @@
 
 }
 
-.front_skills_title h2{
+.front_skills_title h2
+{
+
     padding: 4rem 0;
     font-size: 2rem;
     font-weight: 700;
@@ -40,11 +41,11 @@
     height: 100vh;
     width: 45.5%;
     background-color: #222222;
+    padding: 2rem;
 }
 
 
 .doing h3{
-    padding-top:4rem;
     font-family: 'poppins', sans-serif;
     font-size: 1.2rem;
     font-weight: 700;
@@ -83,6 +84,7 @@
     color: #ffffff;
     text-align: left;
     line-height: 1.5;
+    padding-bottom: 1rem;
     
 }
 
@@ -96,4 +98,69 @@
 
 .percentages{
     width: 25rem;
+}
+
+@media screen and (max-width: 900px){
+    .front_skills{
+        height: 100%;
+        background-color: #222222;
+
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        justify-content: center;
+        background-color: #222222;
+    }
+
+    .front_skills_title{
+        height: 12rem;
+        display: inline;
+        background-color: #33333333;
+        color: #ffffff;
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: 'poppins', sans-serif;
+        text-align: left;
+        padding-left: 0;
+    }
+    .front_skills_title h2{
+        display: inline-block;
+        width: 100%;
+        padding: 4rem 0;
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: left;
+        padding-left: 2rem;
+    }
+    
+    .doing{
+        display: inline-block;
+        align-items: left;
+        height: 100%;
+        width: 100%;
+        background-color: #222222;
+    }
+
+    .doing h3{
+        padding-top:4rem;
+        font-family: 'poppins', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: left;
+        display: block;
+        padding-left: 2rem;
+    }
+
+    .paragraph{
+        height: 100%;
+        padding: 2rem;
+    }
+
+
+
+    
 }

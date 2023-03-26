@@ -52,13 +52,15 @@
 .profile_image img:hover{
     transform: scale(1.1);
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 900px){
     .home{
-        display: flex;
+        width: 100%;
+        display: inline-flex;
         flex-direction: column;
         align-items: center;
         height: 100%;
         justify-content: center;
+        padding: 0;
     }
     .profile_image img{
         margin-top: 8rem;

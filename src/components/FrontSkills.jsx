@@ -18,13 +18,13 @@ class FrontSkills extends React.Component {
             <Skill name="HTML, CSS & Javascript" icon={screen} text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis faucibus erat. Donec risus magna, semper sed volutpat non, congue a lectus. Nulla aliquam diam ut mauris tincidunt, at rhoncus dui varius."/>
             <Skill name="React & React Native" icon={market} text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis faucibus erat. Donec risus magna, semper sed volutpat non, congue a lectus. Nulla aliquam diam ut mauris tincidunt, at rhoncus dui varius."/>
           </div>
-          <div className="percentages">
+          {/* <div className="percentages">
             <div className="percentage">
               <div className="percentage_title">
                 <h4>HTML</h4>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     );
