@@ -1,0 +1,99 @@
+.front_skills {
+
+    height: 100vh;
+    background-color: #222222;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222222;
+}
+
+.front_skills_title {
+    height: 12rem;
+    display: inline;
+    background-color: #33333333;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'poppins', sans-serif;
+    text-align: left;
+
+}
+
+.front_skills_title h2{
+    padding: 4rem 0;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+    background-color: #333333;
+    padding-left: 10rem;
+}
+
+
+.doing{
+    display: inline-block;
+    align-items: left;
+    height: 100vh;
+    width: 45.5%;
+    background-color: #222222;
+}
+
+
+.doing h3{
+    padding-top:4rem;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+    display: block;
+
+   
+
+}
+.paragraph{
+    height: 10rem;
+}
+.tittle-paragraph{
+    display: flex;
+    padding-top: 2rem;
+}
+.tittle-paragraph h4{
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+    line-height: 1.5;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    
+}
+
+
+.paragraph p{
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: left;
+    line-height: 1.5;
+    
+}
+
+.paragraph img{
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    padding: 1rem 0;
+    margin: 0;
+}
+
+.percentages{
+    width: 25rem;
+}
