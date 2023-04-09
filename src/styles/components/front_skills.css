@@ -1,19 +1,20 @@
 .front_skills {
     display: inline-block;
-    height: 100vh;
+    height: 100%;
     background-color: #222222;
     flex: 0 1 100%;
+    align-items: center;
 
 }
 .content{
-    display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     background-color: #222222;
 }
 
 .front_skills_title {
+    display: inline;
     height: 12rem;
     color: #ffffff;
     font-size: 2rem;
@@ -26,18 +27,18 @@
 .front_skills_title h2
 {
 
-    padding: 4rem 0;
+    padding: 4rem  ;
     font-size: 2rem;
     font-weight: 700;
     text-align: left;
     background-color: #333333;
-    padding-left: 10rem;
+    /* padding-left: 10rem; */
 }
 
 
 .doing{
     display: inline-block;
-    align-items: left;
+    align-items: center;
     width: 45.5%;
     background-color: #222222;
     padding: 2rem;
@@ -50,17 +51,18 @@
     font-weight: 700;
     color: #ffffff;
     text-align: left;
-    display: block;
+    display: inline-block;
 
    
 
 }
 .paragraph{
     height: 10rem;
+    padding-bottom: 2rem;
 }
 .tittle-paragraph{
     display: flex;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
 }
 .tittle-paragraph h4{
     font-family: 'poppins', sans-serif;
@@ -101,6 +103,7 @@
 
 @media screen and (max-width: 900px){
     .front_skills{
+        width: 100%;
         height: 100%;
         background-color: #222222;
 
@@ -123,23 +126,21 @@
         font-weight: 700;
         font-family: 'poppins', sans-serif;
         text-align: left;
-        padding-left: 0;
+        /* padding-left: 0; */
     }
     .front_skills_title h2{
-        display: inline-block;
-        width: 100%;
-        padding: 4rem 0;
+        /* overflow: hidden;
+        width: 100%; */
+        padding: 4rem 2rem;
         font-size: 2rem;
         font-weight: 700;
-        text-align: left;
-        padding-left: 2rem;
+        text-align: center;
     }
     
     .doing{
         display: inline-block;
+        width: auto;
         align-items: left;
-        height: 100%;
-        width: 100%;
         background-color: #222222;
     }
 
@@ -150,13 +151,14 @@
         font-weight: 700;
         color: #ffffff;
         text-align: left;
-        display: block;
-        padding-left: 2rem;
+        /* display: block; */
+        /* padding-left: 2rem; */
     }
 
     .paragraph{
+        width: 100%;
         height: 100%;
-        padding: 2rem;
+       /*  padding: 2rem; */
     }
 
 
