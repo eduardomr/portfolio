@@ -4,6 +4,8 @@ import Home from './components/Home.jsx';
 import FrontSkills from './components/FrontSkills.jsx';
 import './App.css';
 import BackSkills from './components/BackSkills.jsx';
+import Portfolio from './components/Portfolio.jsx';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <Home/>
       <FrontSkills/>
       <BackSkills/>
+      <Portfolio/>
     </div>
   );
 }

@@ -3,3 +3,6 @@
 @import 'components/home.css';
 @import 'components/button.css';
 @import 'components/front_skills.css';
+@import 'components/portfolio.css';
+@import 'components/project.css';
+@import 'bootstrap/dist/css/bootstrap.min.css';

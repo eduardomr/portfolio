@@ -1,5 +1,4 @@
 import React from "react";
-import pencil from "../assets/pencil.png"
 
 
 const Skill = (props) => {
@@ -8,7 +7,7 @@ const Skill = (props) => {
 
             <div className="paragraph">
             <div className="tittle-paragraph">
-                <img src={props.icon}></img>
+                <img src={props.icon} alt="#"></img>
                 <h4>{props.name}</h4>
             </div>
             <p>

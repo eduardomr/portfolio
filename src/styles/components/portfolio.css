@@ -1,0 +1,28 @@
+.portfolio_title {
+  display: inline;
+  height: 12rem;
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'poppins', sans-serif;
+  text-align: left;
+}
+
+.portfolio_title h2 {
+  padding: 4rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: left;
+  background-color: #333333;
+}
+
+.content_portfolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #333333;
+  
+}
