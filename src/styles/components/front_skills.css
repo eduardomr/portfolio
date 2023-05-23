@@ -1,6 +1,6 @@
 .front_skills {
     display: inline-block;
-    height: 100%;
+    width: 100%;
     background-color: #222222;
     flex: 0 1 100%;
     align-items: center;
@@ -38,8 +38,8 @@
 
 .doing{
     display: inline-block;
-    align-items: center;
-    width: 45.5%;
+    align-items: left;
+    width: 80vh;
     background-color: #222222;
     padding: 2rem;
 }
@@ -91,8 +91,7 @@
 
 .paragraph img{
     display: flex;
-    width: 2rem;
-    height: 2rem;
+    height: 4rem;
     padding: 1rem 0;
     margin: 0;
 }
