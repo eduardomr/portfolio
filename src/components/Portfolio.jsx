@@ -9,8 +9,15 @@ class Portfolio extends Component {
         <div className="portfolio_title">
           <h2>Portfolio</h2>
         </div>
-
-        <CarouselPortfolio />
+        <div className="flex">
+          <div className="item item1">
+            <CarouselPortfolio />
+          </div>
+          <div className="item item2">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="icon" />  
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="icon" />
+            </div>
+        </div>
       </div>
     );
   }
