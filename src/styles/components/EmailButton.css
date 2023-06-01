@@ -1,0 +1,17 @@
+.email{
+    display: block;
+    justify-content: center;
+    align-items: baseline;
+}
+.email_button {
+    background-color: #ffffff00;
+    border: none;
+    width: min-content;
+}
+
+.email_button img{
+    max-height: 50px;
+    height: auto;
+    width: auto;
+    margin: 0;
+}

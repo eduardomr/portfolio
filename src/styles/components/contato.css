@@ -1,0 +1,24 @@
+.contato h4
+{   margin-bottom: 16px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+.contato_box{
+    background-color: #ffeede;
+    border-radius: 30px;
+    height: 28vh;
+    width: 40vh;
+    position: relative;
+}
+
+.contato_box_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
