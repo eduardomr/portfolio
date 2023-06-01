@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import CarouselPortfolio from "./carousel";
-import linkedin from "../assets/linkedin.svg";
-import github from "../assets/github.svg";
 import Contato from "./Contato";
 
 class Portfolio extends Component {
